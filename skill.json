@@ -1,0 +1,9 @@
+{
+  "schema_version": "v1",
+  "name": "genpark-lsm-tree-sstable-compaction-skill",
+  "version": "1.0.0",
+  "description": "Log-Structured Merge-tree (LSM Tree) storage engine with in-memory MemTable, SSTables, and compaction.",
+  "entrypoint": "client.py",
+  "mcp_server": "mcp_server.py",
+  "category": "Service"
+}
