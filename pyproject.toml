@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genpark-lsm-tree-sstable-compaction-skill"
+version = "1.0.0"
+description = "Log-Structured Merge-tree (LSM Tree) storage engine with in-memory MemTable, SSTables, and compaction."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "AlphaPark Team", email = "engineering@alphapark.ai"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Database :: Database Engines/Servers"
+]
+
+[project.urls]
+Homepage = "https://github.com/alphaparkinc/genpark-lsm-tree-sstable-compaction-skill"
+Repository = "https://github.com/alphaparkinc/genpark-lsm-tree-sstable-compaction-skill.git"
+Issues = "https://github.com/alphaparkinc/genpark-lsm-tree-sstable-compaction-skill/issues"
